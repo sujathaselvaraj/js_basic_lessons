@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="./currency_conv.css">
+</head>
+
+<body>
+    <main class=" container">
+        <div class="covertor_box" id="covertor_box">
+            <div class="input_amount" id="input_amount"><input class="currency" type="number" onchange="calculate()" />
+            </div>
+            <div class="input_currency" id="input_currency">
+                <div class="select_currency">
+                    <select class="list" id="list" name="from_amount">
+                    </select>
+                </div>
+            </div>
+            <div class="convert" id="convert">
+                <p>is</p>
+            </div>
+            <div class="output_currency" id="output_currency">
+                <select class="list1" id="list1" name="to_amount">
+                    Select a Currency
+                </select>
+            </div>
+            <div class="converted" id="converted">
+                <p>in</p>
+            </div>
+            <div class="output_amount" id="output_amount">
+                <input type="text" name="convertedmoney" id="converted" placeholder="$0">
+            </div>
+        </div>
+
+    </main>
+    <script type="tect/javascript" src="./currency_conv.js">
+       </script>
+</body>
+
+</html>

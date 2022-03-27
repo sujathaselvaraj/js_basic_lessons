@@ -1,0 +1,58 @@
+.container {
+    width: 1200px;
+    height: 90vh;
+    margin-left: 5%;
+    margin-top: 2%;
+    background-color: rgb(111, 114, 117);
+    display: relative;
+    position: fixed;
+    font-size: 16px;
+    color: black;
+}
+#covertor_box {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    row-gap: 10px;
+    padding: 20px; 
+    background-color: white;
+    margin-left: 30%;
+    margin-bottom: 30%;
+    margin-top: 15%;
+    width: 400px;
+}
+.input_amount,
+.input_currency,
+.convert,
+.output_currency,
+.converted,
+.output_amount {
+    background-color: rgb(247, 149, 3);
+    width: 170px;
+    height: 9vh;
+    padding-left: 20px;
+}
+input,
+select {
+    background-color: rgb(247, 149, 3);
+    border: none;
+    border-color: rgb(247, 149, 3);
+    width: 140px; 
+    appearance: none;
+    padding: 5px;
+    margin-left: 20px;
+    outline: none;
+    text-align: center;
+}
+p {
+    margin-left: 50px;
+    font-weight:bolder;
+}
+select {
+    margin-top: 1vh;
+    font-weight: 600;
+    height: 7vh;
+}
+input {
+    height: 6vh;
+}
